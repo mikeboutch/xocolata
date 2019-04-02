@@ -1,6 +1,14 @@
 {
+    "targetConfig": "SIT",
+    "envScope":"User",
+    "getFromCurrEnv": 1,
     "envVars": {
-        "BLALALALA": "default bla",
-        "TARATATA": "defTARARTA"
+        "ZOO": "default bla",
+        "ZEBRA": "defTARARTA",
+        "ZNAZNANA":{
+            "dev":"znaznaDEV",
+            "sit":"znaznaSIT"
+        }
     }
+
 }
