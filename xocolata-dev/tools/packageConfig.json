@@ -1,8 +1,11 @@
 {
-    "targetConfig": "SIT",
-    "envScope":"User",
-    "getFromCurrEnv": 1,
+    "targetConfig": "dev",
+    "envScope":"Machine",
     "envVars": {
+        "TargetEnv":{
+            "sit":"sit",
+            "dev":"dev"
+        },
         "ZOO": "default bla",
         "ZEBRA": "defTARARTA",
         "ZNAZNANA":{

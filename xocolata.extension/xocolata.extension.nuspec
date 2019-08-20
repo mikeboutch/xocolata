@@ -2,13 +2,20 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>xocolata.extension</id>
-    <version>19.4.2</version>
+    <version>19.8.1</version>
     <title>xocolata.extension (Install)</title>
     <authors>__REPLACE_AUTHORS_OF_SOFTWARE_COMMA_SEPARATED__</authors>
     <projectUrl>https://_Software_Location_REMOVE_OR_FILL_OUT_</projectUrl>
     <tags>xocolata.extension SPACE_SEPARATED</tags>
-    <summary>__REPLACE__</summary>
-    <description>__REPLACE__MarkDown_Okay </description>
+    <summary>Extension for Chocolatey:
+    - Get-UserContext
+    - Get-UserDomainContext
+    - Is-SelfService
+    - Set-PackageConfig
+    </summary>
+    <description>
+    ## Using PackageConfig
+    </description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <!-- =============================== -->      
 
@@ -25,6 +32,8 @@
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
     <file src="extensions\**" target="extensions" />
+    <file src="..\LICENSE" target="LICENSE" />
+    <file src="README.md" target="README.md"/>
     <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
   </files>
 </package>
