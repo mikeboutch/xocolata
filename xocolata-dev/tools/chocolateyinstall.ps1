@@ -3,5 +3,5 @@
 Write-Output "loaded"
 
 Set-PackageConfig
-#Start-Sleep 10
+Start-Sleep 1
 #throw "never install"
