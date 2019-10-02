@@ -2,13 +2,10 @@
     "targetConfig": "dev",
     "envScope":"Machine",
     "envVars": {
-        "TargetEnv":{
-            "sit":"sit",
-            "dev":"dev"
-        },
-        "ZOO": "default bla",
+        "ZOO": "default bla %ZEBRA%",
         "ZEBRA": "defTARARTA",
         "ZNAZNANA":{
+            "local-sit3": "Iam in sit3 local",
             "dev":"znaznaDEV",
             "sit":"znaznaSIT"
         }
